@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+.nav-bar img 
+{
+    float: left;
+    margin-left: 30px;
+    width: 150px;
+    height: auto;
+
+}
+.nav-list{
+     margin-left: 40%;
+}
+.nav-list ul
+{
+display:flex;
+list-style: none;
+}
+.nav-list ul li
+{
+    font-size: 25px;
+    color:rgb(250, 247, 247);
+    margin-left: 50px;
+    font-weight:bold ;
+}
+.nav-list ul li:hover
+{
+    color: rgb(0, 255, 255);
+    transition: 0.5s;
+    text-decoration: underline;
+  
+
+}
+.nav-bar{
+  display: flex;
+  margin-top: 22px;
+}
+.loginbtn button
+{
+   font-size: 22px;
+   margin-left: 50px;
+   background-color: red;
+   border: none;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 6px;
+   font-weight: bold;
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.loginbtn button:hover
+{
+   box-shadow: 1px 1px 11px 5px;
+   color: aqua;
+   background-color: #000;
+}
+.watch-img img{
+    float: right;
+    width: 600px;
+    height: 370px;
+    margin-left: 195px;
+    margin-top: 65px;
+}
+.content-left p
+{ 
+    display: flex; 
+    margin-top: 20%;
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+}
+.content-left {
+    display: flex;
+}
+.button button {
+    font-size: 23px;
+    color: white;
+    background-color: red;
+    font-weight: 200;
+    margin-left: 10%;
+    margin-top: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 11px;
+    font-weight: 600;
+}
+.button button:hover
+{
+  box-shadow: 1px 1px 11px 5px;
+  background-color: black;
+  color: rgb(0, 255, 242);
+}
+.icons
+{
+    display: flex;
+    margin-left: 80px;
+    
+}
+.icons1{
+     margin-top: 10px;
+    margin-right: 2px;
+}
+.icons2{
+    margin-top: 30px;
+}
+.icons1 #icon1 
+{
+    width: 180px;
+    height: 115px; 
+}
+.icons2 #icon2 
+{
+    width: 174px;
+    height: 90px;
+}
